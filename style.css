@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.search-container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+.search {
+  padding: 7px;
+  border-radius: 4px;
+  outline: none;
+  font-size: 20px;
+}
+.submit-btn {
+  padding: 7px 20px;
+  border-radius: 4px;
+  background-color: rgb(252, 94, 3);
+  color: white;
+  font-size: 20px;
+  border: 2px solid rgb(255, 0, 0);
+  cursor: pointer;
+}
+.card-group-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cart-main-container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.group-container {
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.card-container {
+  margin: 15px;
+  width: 300px;
+  box-shadow: 4px 4px 4px 4px gray;
+  border-radius: 10px;
+  text-align: center;
+}
+.product-title {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  color: rgba(27, 27, 27, 0.952);
+}
+.card-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px !important;
+}
+.details-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 4px gray;
+  margin-bottom: 40px;
+  display: none;
+}
+.instructions {
+  font-size: 18px;
+  color: rgba(27, 27, 27, 0.952);
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+.btn-cart {
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 10px;
+}
+.btn-cart:hover {
+  background-color: seagreen;
+  color: white;
+  transition: 0.5s;
+}
+.details-btn {
+  border: 1px solid rgba(60, 60, 60, 0.9);
+  color: rgba(60, 60, 60, 0.9);
+}
+.cart-add-btn {
+  border: 1px solid rgba(4, 97, 23, 0.934);
+  color: rgba(4, 97, 23, 0.934);
+}
+.group-heading {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.group-list-title {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  font-weight: bold;
+}
+.group-item {
+  display: flex;
+}
+.cart-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 10px;
+}
+.cart-round-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.cart-name {
+  width: 50px;
+}
+.modal-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 10px;
+}
